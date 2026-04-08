@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import {
   Globe,
   Heart,
@@ -39,7 +39,7 @@ const Navbar = () => {
   const isMemberPage = pathname.startsWith("/member");
   const isLightHeader = isHomePage && !activeMenu;
 
-  const syncIndicator = useCallback((element: HTMLElement, parent: HTMLElement) => {
+  const syncIndicator = (element: HTMLElement, parent: HTMLElement) => {
     const parentRect = parent.getBoundingClientRect();
     const elRect = element.getBoundingClientRect();
 
@@ -48,9 +48,17 @@ const Navbar = () => {
       width: elRect.width,
       opacity: 1,
     });
-  }, []);
+  };
 
-  const syncDefaultIndicator = useCallback(() => {
+  const openMenu = (element: HTMLElement, menuKey: string) => {
+    const parent = menuRef.current;
+    if (!parent) return;
+
+    syncIndicator(element, parent);
+    setActiveMenu(menuKey);
+  };
+
+  const syncDefaultIndicator = () => {
     const parent = menuRef.current;
     if (!parent) return;
 
@@ -61,23 +69,12 @@ const Navbar = () => {
     if (!defaultButton) return;
 
     syncIndicator(defaultButton, parent);
-  }, [syncIndicator]);
+  };
 
-  const openMenu = useCallback(
-    (element: HTMLElement, menuKey: string) => {
-      const parent = menuRef.current;
-      if (!parent) return;
-
-      syncIndicator(element, parent);
-      setActiveMenu(menuKey);
-    },
-    [syncIndicator],
-  );
-
-  const closeOverlay = useCallback(() => {
+  const closeOverlay = () => {
     setActiveMenu(null);
     window.requestAnimationFrame(syncDefaultIndicator);
-  }, [syncDefaultIndicator]);
+  };
 
   useEffect(() => {
     if (isMemberPage) return;
@@ -86,7 +83,7 @@ const Navbar = () => {
 
     window.addEventListener("resize", syncDefaultIndicator);
     return () => window.removeEventListener("resize", syncDefaultIndicator);
-  }, [isMemberPage, syncDefaultIndicator]);
+  }, [isMemberPage]);
 
   useEffect(() => {
     if (!activeMenu) return;
@@ -99,7 +96,7 @@ const Navbar = () => {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [activeMenu, closeOverlay]);
+  }, [activeMenu]);
 
   useEffect(() => {
     if (!activeMenu) return;
@@ -114,7 +111,7 @@ const Navbar = () => {
     if (!activeButton) return;
 
     syncIndicator(activeButton, parent);
-  }, [activeMenu, syncIndicator]);
+  }, [activeMenu]);
 
   const renderActionGroup = (isOverlay: boolean) => (
     <div
@@ -256,7 +253,9 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={isHomePage && !activeMenu ? "" : "border-b border-black/10 bg-white"}
+        className={
+          isHomePage && !activeMenu ? "" : "border-b border-black/10 bg-white"
+        }
       >
         <nav className="relative flex min-h-12 w-full items-center justify-between">
           <Link href="/">

@@ -3,22 +3,26 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CalendarDays } from "lucide-react";
-
 import Notification from "@/features/category/components/Notification";
 import SearchBar from "@/features/category/components/SearchBar";
 import { useCategoryContent } from "@/features/category/hooks/useCategoryContent";
-import type { CategoryProps } from "@/features/category/category.types";
+import type {
+  CategoryMenuKey,
+  CategoryProps,
+} from "@/features/category/category.types";
 
 const Category = ({ activeMenu, overlay = false }: CategoryProps) => {
-  const { items, notices } = useCategoryContent(activeMenu);
-
   if (!activeMenu) {
     return null;
   }
+  const { items, notices } = useCategoryContent(activeMenu as CategoryMenuKey);
   const columnCount = 4;
   const itemsPerColumn = Math.ceil(items.length / columnCount);
   const columns = Array.from({ length: columnCount }, (_, columnIndex) =>
-    items.slice(columnIndex * itemsPerColumn, (columnIndex + 1) * itemsPerColumn),
+    items.slice(
+      columnIndex * itemsPerColumn,
+      (columnIndex + 1) * itemsPerColumn,
+    ),
   );
 
   const content = (
@@ -42,7 +46,8 @@ const Category = ({ activeMenu, overlay = false }: CategoryProps) => {
                   className="flex flex-col gap-2"
                 >
                   {columnItems.map((item, itemIndex) => {
-                    const absoluteIndex = columnIndex * itemsPerColumn + itemIndex;
+                    const absoluteIndex =
+                      columnIndex * itemsPerColumn + itemIndex;
 
                     return (
                       <Link
@@ -67,7 +72,9 @@ const Category = ({ activeMenu, overlay = false }: CategoryProps) => {
                               className="text-gray-900"
                             />
                           ) : (
-                            <div className={item.badgeClassName}>{item.badge}</div>
+                            <div className={item.badgeClassName}>
+                              {item.badge}
+                            </div>
                           )}
                         </div>
                         <span className="text-[14px] font-normal uppercase leading-6 tracking-[0.01em] text-gray-900">
@@ -88,7 +95,11 @@ const Category = ({ activeMenu, overlay = false }: CategoryProps) => {
   );
 
   if (overlay) {
-    return <div className="flex h-full min-h-0 flex-col text-gray-900">{content}</div>;
+    return (
+      <div className="flex h-full min-h-0 flex-col text-gray-900">
+        {content}
+      </div>
+    );
   }
 
   return (

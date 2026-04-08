@@ -620,10 +620,10 @@ var _s = __turbopack_context__.k.signature();
 const Category = (param)=>{
     let { activeMenu, overlay = false } = param;
     _s();
-    const { items, notices } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$category$2f$hooks$2f$useCategoryContent$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCategoryContent"])(activeMenu);
     if (!activeMenu) {
         return null;
     }
+    const { items, notices } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$category$2f$hooks$2f$useCategoryContent$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCategoryContent"])(activeMenu);
     const columnCount = 4;
     const itemsPerColumn = Math.ceil(items.length / columnCount);
     const columns = Array.from({
@@ -635,12 +635,12 @@ const Category = (param)=>{
                 className: "mx-auto w-full max-w-[976px] px-8 pt-8",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$category$2f$components$2f$SearchBar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/features/category/Category.tsx",
-                    lineNumber: 27,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/features/category/Category.tsx",
-                lineNumber: 26,
+                lineNumber: 30,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -671,12 +671,12 @@ const Category = (param)=>{
                                                                 className: "object-cover transition-transform duration-300 group-hover:scale-105"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/features/category/Category.tsx",
-                                                                lineNumber: 56,
+                                                                lineNumber: 61,
                                                                 columnNumber: 31
                                                             }, ("TURBOPACK compile-time value", void 0))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/features/category/Category.tsx",
-                                                            lineNumber: 55,
+                                                            lineNumber: 60,
                                                             columnNumber: 29
                                                         }, ("TURBOPACK compile-time value", void 0)) : item.icon === "calendar" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$1$2e$7$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2d$days$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CalendarDays$3e$__["CalendarDays"], {
                                                             size: 34,
@@ -684,19 +684,19 @@ const Category = (param)=>{
                                                             className: "text-gray-900"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/features/category/Category.tsx",
-                                                            lineNumber: 64,
+                                                            lineNumber: 69,
                                                             columnNumber: 29
                                                         }, ("TURBOPACK compile-time value", void 0)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: item.badgeClassName,
                                                             children: item.badge
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/features/category/Category.tsx",
-                                                            lineNumber: 70,
+                                                            lineNumber: 75,
                                                             columnNumber: 29
                                                         }, ("TURBOPACK compile-time value", void 0))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/features/category/Category.tsx",
-                                                        lineNumber: 53,
+                                                        lineNumber: 58,
                                                         columnNumber: 25
                                                     }, ("TURBOPACK compile-time value", void 0)),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -704,47 +704,47 @@ const Category = (param)=>{
                                                         children: item.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/features/category/Category.tsx",
-                                                        lineNumber: 73,
+                                                        lineNumber: 80,
                                                         columnNumber: 25
                                                     }, ("TURBOPACK compile-time value", void 0))
                                                 ]
                                             }, "".concat(activeMenu, "-").concat(item.href, "-").concat(absoluteIndex), true, {
                                                 fileName: "[project]/src/features/category/Category.tsx",
-                                                lineNumber: 48,
+                                                lineNumber: 53,
                                                 columnNumber: 23
                                             }, ("TURBOPACK compile-time value", void 0));
                                         })
                                     }, "".concat(activeMenu, "-column-").concat(columnIndex), false, {
                                         fileName: "[project]/src/features/category/Category.tsx",
-                                        lineNumber: 40,
+                                        lineNumber: 44,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0)))
                             }, void 0, false, {
                                 fileName: "[project]/src/features/category/Category.tsx",
-                                lineNumber: 38,
+                                lineNumber: 42,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/features/category/Category.tsx",
-                            lineNumber: 37,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$category$2f$components$2f$Notification$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             notices: notices
                         }, void 0, false, {
                             fileName: "[project]/src/features/category/Category.tsx",
-                            lineNumber: 84,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/features/category/Category.tsx",
-                    lineNumber: 36,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/features/category/Category.tsx",
-                lineNumber: 29,
+                lineNumber: 33,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -755,8 +755,8 @@ const Category = (param)=>{
             children: content
         }, void 0, false, {
             fileName: "[project]/src/features/category/Category.tsx",
-            lineNumber: 91,
-            columnNumber: 12
+            lineNumber: 99,
+            columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -764,7 +764,7 @@ const Category = (param)=>{
         children: content
     }, void 0, false, {
         fileName: "[project]/src/features/category/Category.tsx",
-        lineNumber: 95,
+        lineNumber: 106,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -847,46 +847,32 @@ const Navbar = ()=>{
     const isHomePage = pathname === "/";
     const isMemberPage = pathname.startsWith("/member");
     const isLightHeader = isHomePage && !activeMenu;
-    const syncIndicator = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
-        "Navbar.useCallback[syncIndicator]": (element, parent)=>{
-            const parentRect = parent.getBoundingClientRect();
-            const elRect = element.getBoundingClientRect();
-            setIndicator({
-                left: elRect.left - parentRect.left,
-                width: elRect.width,
-                opacity: 1
-            });
-        }
-    }["Navbar.useCallback[syncIndicator]"], []);
-    const syncDefaultIndicator = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
-        "Navbar.useCallback[syncDefaultIndicator]": ()=>{
-            const parent = menuRef.current;
-            if (!parent) return;
-            const defaultButton = parent.querySelector('button[data-menu-key="'.concat(defaultMenuKey, '"]'));
-            if (!defaultButton) return;
-            syncIndicator(defaultButton, parent);
-        }
-    }["Navbar.useCallback[syncDefaultIndicator]"], [
-        syncIndicator
-    ]);
-    const openMenu = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
-        "Navbar.useCallback[openMenu]": (element, menuKey)=>{
-            const parent = menuRef.current;
-            if (!parent) return;
-            syncIndicator(element, parent);
-            setActiveMenu(menuKey);
-        }
-    }["Navbar.useCallback[openMenu]"], [
-        syncIndicator
-    ]);
-    const closeOverlay = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
-        "Navbar.useCallback[closeOverlay]": ()=>{
-            setActiveMenu(null);
-            window.requestAnimationFrame(syncDefaultIndicator);
-        }
-    }["Navbar.useCallback[closeOverlay]"], [
-        syncDefaultIndicator
-    ]);
+    const syncIndicator = (element, parent)=>{
+        const parentRect = parent.getBoundingClientRect();
+        const elRect = element.getBoundingClientRect();
+        setIndicator({
+            left: elRect.left - parentRect.left,
+            width: elRect.width,
+            opacity: 1
+        });
+    };
+    const openMenu = (element, menuKey)=>{
+        const parent = menuRef.current;
+        if (!parent) return;
+        syncIndicator(element, parent);
+        setActiveMenu(menuKey);
+    };
+    const syncDefaultIndicator = ()=>{
+        const parent = menuRef.current;
+        if (!parent) return;
+        const defaultButton = parent.querySelector('button[data-menu-key="'.concat(defaultMenuKey, '"]'));
+        if (!defaultButton) return;
+        syncIndicator(defaultButton, parent);
+    };
+    const closeOverlay = ()=>{
+        setActiveMenu(null);
+        window.requestAnimationFrame(syncDefaultIndicator);
+    };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Navbar.useEffect": ()=>{
             if (isMemberPage) return;
@@ -897,8 +883,7 @@ const Navbar = ()=>{
             })["Navbar.useEffect"];
         }
     }["Navbar.useEffect"], [
-        isMemberPage,
-        syncDefaultIndicator
+        isMemberPage
     ]);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Navbar.useEffect": ()=>{
@@ -916,8 +901,7 @@ const Navbar = ()=>{
             })["Navbar.useEffect"];
         }
     }["Navbar.useEffect"], [
-        activeMenu,
-        closeOverlay
+        activeMenu
     ]);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Navbar.useEffect": ()=>{
@@ -929,8 +913,7 @@ const Navbar = ()=>{
             syncIndicator(activeButton, parent);
         }
     }["Navbar.useEffect"], [
-        activeMenu,
-        syncIndicator
+        activeMenu
     ]);
     const renderActionGroup = (isOverlay)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex items-center gap-6 ".concat(isOverlay ? "text-gray-900" : isLightHeader ? "text-white ".concat(textShadowClass) : "text-gray-950"),
@@ -946,7 +929,7 @@ const Navbar = ()=>{
                                 strokeWidth: 1.7
                             }, void 0, false, {
                                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                lineNumber: 136,
+                                lineNumber: 133,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -954,13 +937,13 @@ const Navbar = ()=>{
                                 children: "VN-VI"
                             }, void 0, false, {
                                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                lineNumber: 137,
+                                lineNumber: 134,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                        lineNumber: 131,
+                        lineNumber: 128,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -972,12 +955,12 @@ const Navbar = ()=>{
                             strokeWidth: 1.6
                         }, void 0, false, {
                             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                            lineNumber: 142,
+                            lineNumber: 139,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                        lineNumber: 141,
+                        lineNumber: 138,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -990,6 +973,21 @@ const Navbar = ()=>{
                             strokeWidth: 1.5
                         }, void 0, false, {
                             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
+                            lineNumber: 145,
+                            columnNumber: 13
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, void 0, false, {
+                        fileName: "[project]/src/shared/components/layout/Navbar.tsx",
+                        lineNumber: 144,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                        "aria-label": "Yêu thích",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$1$2e$7$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+                            size: 20,
+                            strokeWidth: 1.5
+                        }, void 0, false, {
+                            fileName: "[project]/src/shared/components/layout/Navbar.tsx",
                             lineNumber: 148,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
@@ -998,9 +996,10 @@ const Navbar = ()=>{
                         lineNumber: 147,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        "aria-label": "Yêu thích",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$1$2e$7$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/member",
+                        "aria-label": "Tài khoản",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$1$2e$7$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"], {
                             size: 20,
                             strokeWidth: 1.5
                         }, void 0, false, {
@@ -1014,22 +1013,6 @@ const Navbar = ()=>{
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/member",
-                        "aria-label": "Tài khoản",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$1$2e$7$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"], {
-                            size: 20,
-                            strokeWidth: 1.5
-                        }, void 0, false, {
-                            fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                            lineNumber: 154,
-                            columnNumber: 13
-                        }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
-                        fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                        lineNumber: 153,
-                        columnNumber: 11
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/cart",
                         className: "relative",
                         "aria-label": "Giỏ hàng",
@@ -1039,7 +1022,7 @@ const Navbar = ()=>{
                                 strokeWidth: 1.5
                             }, void 0, false, {
                                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                lineNumber: 157,
+                                lineNumber: 154,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1047,13 +1030,13 @@ const Navbar = ()=>{
                                 children: "2"
                             }, void 0, false, {
                                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                lineNumber: 158,
+                                lineNumber: 155,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                        lineNumber: 156,
+                        lineNumber: 153,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1063,19 +1046,19 @@ const Navbar = ()=>{
                             strokeWidth: 1.5
                         }, void 0, false, {
                             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                            lineNumber: 163,
+                            lineNumber: 160,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                        lineNumber: 162,
+                        lineNumber: 159,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true)
         }, void 0, false, {
             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-            lineNumber: 120,
+            lineNumber: 117,
             columnNumber: 5
         }, ("TURBOPACK compile-time value", void 0));
     const renderMenu = (isOverlay)=>{
@@ -1096,7 +1079,7 @@ const Navbar = ()=>{
                             children: item.label
                         }, item.key, false, {
                             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                            lineNumber: 177,
+                            lineNumber: 174,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1108,18 +1091,18 @@ const Navbar = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                        lineNumber: 206,
+                        lineNumber: 203,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                lineNumber: 175,
+                lineNumber: 172,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-            lineNumber: 174,
+            lineNumber: 171,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     };
@@ -1139,12 +1122,12 @@ const Navbar = ()=>{
                             className: "h-14 w-auto"
                         }, void 0, false, {
                             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                            lineNumber: 230,
+                            lineNumber: 227,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                        lineNumber: 229,
+                        lineNumber: 226,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1158,12 +1141,12 @@ const Navbar = ()=>{
                                     strokeWidth: 1.6
                                 }, void 0, false, {
                                     fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                    lineNumber: 241,
+                                    lineNumber: 238,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                lineNumber: 240,
+                                lineNumber: 237,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1175,29 +1158,29 @@ const Navbar = ()=>{
                                     strokeWidth: 2
                                 }, void 0, false, {
                                     fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                    lineNumber: 248,
+                                    lineNumber: 245,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                lineNumber: 243,
+                                lineNumber: 240,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                        lineNumber: 239,
+                        lineNumber: 236,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                lineNumber: 228,
+                lineNumber: 225,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-            lineNumber: 227,
+            lineNumber: 224,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0));
     }
@@ -1218,12 +1201,12 @@ const Navbar = ()=>{
                                 className: "h-14 w-auto"
                             }, void 0, false, {
                                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                lineNumber: 263,
+                                lineNumber: 262,
                                 columnNumber: 13
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                            lineNumber: 262,
+                            lineNumber: 261,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0)),
                         !activeMenu ? renderMenu(false) : null,
@@ -1231,12 +1214,12 @@ const Navbar = ()=>{
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                    lineNumber: 261,
+                    lineNumber: 260,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                lineNumber: 258,
+                lineNumber: 255,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             activeMenu ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1263,12 +1246,12 @@ const Navbar = ()=>{
                                                 className: "h-14 w-auto"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                                lineNumber: 288,
+                                                lineNumber: 287,
                                                 columnNumber: 21
                                             }, ("TURBOPACK compile-time value", void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                            lineNumber: 287,
+                                            lineNumber: 286,
                                             columnNumber: 19
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         renderMenu(true),
@@ -1276,17 +1259,17 @@ const Navbar = ()=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                    lineNumber: 286,
+                                    lineNumber: 285,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                lineNumber: 285,
+                                lineNumber: 284,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                            lineNumber: 284,
+                            lineNumber: 283,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1296,29 +1279,29 @@ const Navbar = ()=>{
                                 overlay: true
                             }, activeMenu, false, {
                                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                                lineNumber: 305,
+                                lineNumber: 304,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                            lineNumber: 304,
+                            lineNumber: 303,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                    lineNumber: 283,
+                    lineNumber: 282,
                     columnNumber: 11
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/shared/components/layout/Navbar.tsx",
-                lineNumber: 279,
+                lineNumber: 278,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)) : null
         ]
     }, void 0, true);
 };
-_s(Navbar, "5DlZ/pA6icXzCKvLM8ftAXSC/Xk=", false, function() {
+_s(Navbar, "9t3CJEC1i3PEMCWG6sLZZsFahtE=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
     ];
