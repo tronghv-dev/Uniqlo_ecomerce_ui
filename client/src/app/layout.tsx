@@ -29,8 +29,8 @@ export default function RootLayout({
       <body
         className={`${ibmPlexSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="fixed top-0 left-0 right-0 px-4 z-50">
-          <div className="mx-auto  xl:max-w-6xl">
+        <div className="fixed inset-x-0 top-0 z-50">
+          <div className="mx-auto xl:max-w-6xl">
             <Navbar />
           </div>
         </div>

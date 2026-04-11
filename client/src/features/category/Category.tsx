@@ -38,7 +38,7 @@ const Category = ({ activeMenu, overlay = false }: CategoryProps) => {
         }
       >
         <div className="mx-auto w-full max-w-[976px] px-8 pb-8 pr-10">
-          <div className="animate-category-panel">
+          <div>
             <div className="grid grid-cols-4">
               {columns.map((columnItems, columnIndex) => (
                 <div
@@ -77,7 +77,7 @@ const Category = ({ activeMenu, overlay = false }: CategoryProps) => {
                             </div>
                           )}
                         </div>
-                        <span className="text-[14px] font-normal uppercase leading-6 tracking-[0.01em] text-gray-900">
+                        <span className="text-sm font-normal uppercase leading-6 tracking-[0.01em] text-gray-900">
                           {item.label}
                         </span>
                       </Link>

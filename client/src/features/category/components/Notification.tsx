@@ -15,7 +15,7 @@ const Notification = ({ notices }: NotificationProps) => {
           <Link
             key={notice.label}
             href={notice.href}
-            className="block text-[16px] leading-7 !text-[#0B63D1] hover:underline"
+            className="block text-base leading-7 !text-[#0B63D1] hover:underline"
           >
             {notice.label}
           </Link>

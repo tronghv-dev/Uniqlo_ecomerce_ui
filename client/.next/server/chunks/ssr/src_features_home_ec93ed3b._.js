@@ -10,40 +10,32 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 ;
 const HeroBannerContent = ({ banner })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "pointer-events-none absolute inset-x-0 bottom-[23%] left-8 z-20 md:px-16 xl:px-24",
+        className: "absolute inset-x-0 bottom-[23%] left-8 z-20 md:px-16 xl:px-24",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex max-w-[38rem] flex-col gap-2 text-white drop-shadow-[0_1.5px_1px_rgba(0,0,0,0.55)]",
+            className: "drop-shadow-text-on-media flex max-w-2xl flex-col gap-2 text-white",
             children: [
-                banner.tag ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "mb-3 text-[10px] font-semibold uppercase tracking-[0.25em] !text-white/90 md:text-[11px]",
-                    children: banner.tag
-                }, void 0, false, {
-                    fileName: "[project]/src/features/home/components/HeroBannerContent.tsx",
-                    lineNumber: 12,
-                    columnNumber: 11
-                }, ("TURBOPACK compile-time value", void 0)) : null,
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                    className: "mb-2 text-[32px] font-normal leading-[1.08] text-white",
+                    className: "mb-2 text-3xl font-normal leading-[1.08] text-white",
                     children: banner.title
                 }, void 0, false, {
                     fileName: "[project]/src/features/home/components/HeroBannerContent.tsx",
-                    lineNumber: 16,
+                    lineNumber: 11,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-[18px] leading-[1.4] !text-white/95",
+                    className: "text-lg leading-[1.4] !text-white/95",
                     children: banner.subtitle
                 }, void 0, false, {
                     fileName: "[project]/src/features/home/components/HeroBannerContent.tsx",
-                    lineNumber: 19,
+                    lineNumber: 14,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "mt-1 text-[18px] leading-[1.4] !text-white/95",
+                    className: "mt-1 text-lg leading-[1.4] !text-white/95",
                     children: banner.description
                 }, void 0, false, {
                     fileName: "[project]/src/features/home/components/HeroBannerContent.tsx",
-                    lineNumber: 22,
+                    lineNumber: 17,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
@@ -70,11 +62,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 ;
 const HeroBannerIndicators = ({ banners, activeIndex })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "pointer-events-none absolute top-1/2 right-3 z-30 flex -translate-y-1/2 flex-col items-center gap-1.5 md:right-6",
+        className: "absolute top-1/2 right-3 z-30 flex -translate-y-1/2 flex-col items-center gap-1.5 md:right-6",
         children: banners.map((banner, index)=>{
             const isActive = index === activeIndex;
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                className: `rounded-full bg-white/90 shadow-[0_1px_3px_rgba(0,0,0,0.12)] transition-all duration-500 ${isActive ? "h-6 w-1" : "h-1 w-1"}`
+                className: `shadow-keyline rounded-full bg-white/90 transition-all duration-500 ${isActive ? "h-6 w-1" : "h-1 w-1"}`
             }, banner.image, false, {
                 fileName: "[project]/src/features/home/components/HeroBannerIndicators.tsx",
                 lineNumber: 18,
@@ -276,6 +268,19 @@ const useHeroBannerCarousel = ({ slideCount, transitionMs, transitionEasing, swi
         isTransitioning,
         transitionMs
     ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const container = containerRef.current;
+        if (!container) return;
+        const options = {
+            passive: false
+        };
+        container.addEventListener("wheel", handleWheel, options);
+        return ()=>{
+            container.removeEventListener("wheel", handleWheel, options);
+        };
+    }, [
+        handleWheel
+    ]);
     return {
         activeIndex,
         displayIndex,
@@ -286,8 +291,7 @@ const useHeroBannerCarousel = ({ slideCount, transitionMs, transitionEasing, swi
         handlePointerEnd,
         handlePointerCancel,
         handleTransitionEnd,
-        handleNativeDragStart,
-        handleWheel
+        handleNativeDragStart
     };
 };
 }),
@@ -401,7 +405,7 @@ const SLIDE_EASING = "cubic-bezier(0.22, 0.61, 0.36, 1)";
 const HeroBanner = ()=>{
     const { banners } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$hooks$2f$useHomeBanners$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useHomeBanners"])();
     const slideCount = banners.length;
-    const { activeIndex, displayIndex, containerRef, sliderStyle, handlePointerDown, handlePointerMove, handlePointerEnd, handlePointerCancel, handleTransitionEnd, handleNativeDragStart, handleWheel } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$hooks$2f$useHeroBannerCarousel$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useHeroBannerCarousel"])({
+    const { activeIndex, displayIndex, containerRef, sliderStyle, handlePointerDown, handlePointerMove, handlePointerEnd, handlePointerCancel, handleTransitionEnd, handleNativeDragStart } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$hooks$2f$useHeroBannerCarousel$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useHeroBannerCarousel"])({
         slideCount,
         transitionMs: SLIDE_TRANSITION_MS,
         transitionEasing: SLIDE_EASING
@@ -444,7 +448,6 @@ const HeroBanner = ()=>{
         onPointerUp: handlePointerEnd,
         onPointerCancel: handlePointerCancel,
         onDragStart: handleNativeDragStart,
-        onWheel: handleWheel,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute inset-0",
@@ -454,26 +457,26 @@ const HeroBanner = ()=>{
                     visibleSlides: visibleSlides
                 }, void 0, false, {
                     fileName: "[project]/src/features/home/HeroBanner.tsx",
-                    lineNumber: 82,
+                    lineNumber: 80,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/features/home/HeroBanner.tsx",
-                lineNumber: 77,
+                lineNumber: 75,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "media-banner_shadow pointer-events-none absolute top-0 left-0 right-0 z-10 h-32 md:h-44"
             }, void 0, false, {
                 fileName: "[project]/src/features/home/HeroBanner.tsx",
-                lineNumber: 85,
+                lineNumber: 83,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$components$2f$HeroBannerContent$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 banner: activeBanner
             }, void 0, false, {
                 fileName: "[project]/src/features/home/HeroBanner.tsx",
-                lineNumber: 87,
+                lineNumber: 85,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$4$2e$5_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$features$2f$home$2f$components$2f$HeroBannerIndicators$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -481,13 +484,13 @@ const HeroBanner = ()=>{
                 activeIndex: displayIndex
             }, void 0, false, {
                 fileName: "[project]/src/features/home/HeroBanner.tsx",
-                lineNumber: 88,
+                lineNumber: 86,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/features/home/HeroBanner.tsx",
-        lineNumber: 67,
+        lineNumber: 66,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

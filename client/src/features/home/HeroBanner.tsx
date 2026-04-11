@@ -26,7 +26,6 @@ const HeroBanner = () => {
     handlePointerCancel,
     handleTransitionEnd,
     handleNativeDragStart,
-    handleWheel,
   } = useHeroBannerCarousel({
     slideCount,
     transitionMs: SLIDE_TRANSITION_MS,
@@ -72,7 +71,6 @@ const HeroBanner = () => {
       onPointerUp={handlePointerEnd}
       onPointerCancel={handlePointerCancel}
       onDragStart={handleNativeDragStart}
-      onWheel={handleWheel}
     >
       <div
         className="absolute inset-0"

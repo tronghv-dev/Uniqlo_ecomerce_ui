@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type React from "react";
 
 type Direction = "next" | "prev";
@@ -161,7 +161,7 @@ export const useHeroBannerCarousel = ({
   );
 
   const handleWheel = useCallback(
-    (e: React.WheelEvent<HTMLDivElement>) => {
+    (e: WheelEvent) => {
       if (wheelLockedRef.current || isTransitioning || isDragging) return;
       if (Math.abs(e.deltaY) < 8) return;
 
@@ -181,6 +181,18 @@ export const useHeroBannerCarousel = ({
     [goNext, goPrev, isDragging, isTransitioning, transitionMs],
   );
 
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    const options: AddEventListenerOptions = { passive: false };
+    container.addEventListener("wheel", handleWheel, options);
+
+    return () => {
+      container.removeEventListener("wheel", handleWheel, options);
+    };
+  }, [handleWheel]);
+
   return {
     activeIndex,
     displayIndex,
@@ -192,6 +204,5 @@ export const useHeroBannerCarousel = ({
     handlePointerCancel,
     handleTransitionEnd,
     handleNativeDragStart,
-    handleWheel,
   };
 };
